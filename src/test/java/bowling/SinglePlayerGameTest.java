@@ -53,7 +53,7 @@ public class SinglePlayerGameTest {
 	public void testPerfectGame() {
 		// 12 boules à 10 points
 		rollMany(12, 10);
-		assertEquals(300, game.score());
+		assertEquals(300, game.score()); // 10 tirs * 30 pts
 	}
 
 	@Test
